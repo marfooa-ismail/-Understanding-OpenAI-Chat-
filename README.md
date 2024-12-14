@@ -40,6 +40,7 @@ purpose:
 Enhances user experience by delivering partial responses as they’re generated, instead of waiting for the full completion.
 Example: 
        "stream": true allows real-time response streaming.
+       
 6:Temperature
 functionality:
 Controls the randomness or creativity of the model’s responses. It accepts values between 0 and 2.
@@ -49,6 +50,8 @@ Higher values (e.g., 1.5) introduce more randomness and creativity.
  Adjusts the response style to fit different use cases—precise answers for technical tasks or creative writing for brainstorming.
 Example: 
  "temperature": 0.7 balances creativity and coherence.
+
+ 
 7:Top_p
 functionality:
  Implements nucleus sampling, which considers only the top tokens with a cumulative probability of p. Accepts values between 0 and 1.
@@ -58,6 +61,8 @@ Higher values allow more token diversity.
  Offers an alternative to temperature for controlling randomness and creativity.
 Example:
          "top_p": 0.9 allows the model to consider a wider range of possible tokens.
+
+         
 8:Tools
 functionality:
  Refers to additional capabilities or integrations the model can access, such as external APIs or plugins.
